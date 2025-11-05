@@ -1,0 +1,21 @@
+{
+  "winner_model": "Logistic Regression",
+  "optimal_threshold": 0.34,
+  "best_cost": 0.5161697581819947,
+  "best_recall": 0.8112068965517242,
+  "best_roc_auc": 0.8037902446664377,
+  "dt_best_params": {
+    "ccp_alpha": 0.001,
+    "class_weight": "balanced",
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2
+  },
+  "lr_best_params": {
+    "C": 0.1,
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "penalty": "l2",
+    "solver": "lbfgs"
+  }
+}
