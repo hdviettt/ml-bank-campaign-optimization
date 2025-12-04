@@ -11,7 +11,7 @@ A complete machine learning pipeline for optimizing bank telemarketing campaigns
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements a data mining solution to predict term deposit subscriptions from telemarketing campaigns. By applying cost-sensitive optimization techniques, we develop a model that balances recall (capturing potential customers) against precision (avoiding wasted calls).
 
@@ -37,7 +37,7 @@ For a **10,000-customer campaign**:
 
 ---
 
-## 🎯 Features
+## Features
 
 - **Complete ML Pipeline:** Data loading → EDA → Preprocessing → Modeling → Optimization → Evaluation
 - **21 Professional Visualizations:** Class distributions, correlations, model performance, feature importance
@@ -49,7 +49,7 @@ For a **10,000-customer campaign**:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bankml/
@@ -84,7 +84,7 @@ bankml/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -138,7 +138,7 @@ jupyter notebook notebook.ipynb
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis
 - **Dataset:** 41,188 telemarketing contacts from Portuguese bank (2008-2013)
@@ -201,7 +201,7 @@ True Negative (correct avoid): 0.0
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 ### Top Predictive Features
 
@@ -244,7 +244,7 @@ True Negative (correct avoid): 0.0
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 **Source:** [UCI Machine Learning Repository - Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
@@ -278,7 +278,7 @@ Decision Support Systems, 62, 22-31.
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **[notebook.ipynb](notebook.ipynb)** - Complete analysis with code, outputs, and explanations
 - **[report.md](report.md)** - Academic report (~5,500 words)
@@ -287,7 +287,7 @@ Decision Support Systems, 62, 22-31.
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 All 21 visualizations are available in the `assets/` folder:
 
@@ -303,64 +303,3 @@ All 21 visualizations are available in the `assets/` folder:
 - Cost-threshold optimization curves
 - Feature importance (DT) and coefficients (LR)
 - Final ROC comparison
-
----
-
-## 🎓 Academic Context
-
-**Course:** CIS051-3 Business Analytics
-**Assignment:** Data Mining Solutions for Direct Marketing Campaigns
-**Objective:** Minimize campaign cost through predictive modeling
-
-**Grading Alignment:**
-- ✓ **Threshold (42%):** Project setup, Decision Tree implementation, basic analysis
-- ✓ **Advanced (60-70%):** GridSearch optimization, multiple experiments, model comparison
-- ✓ **Excellence (70%+):** Cost-sensitive optimization, publishable insights, competitive performance
-
----
-
-## 🤝 Contributing
-
-This project was created for academic purposes. If you find it useful for learning:
-
-1. Fork the repository
-2. Experiment with different models (Random Forest, XGBoost, Neural Networks)
-3. Try different cost matrices or optimization strategies
-4. Apply to other imbalanced classification problems
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Dataset:** Moro et al. (2014), UCI Machine Learning Repository
-- **Libraries:** scikit-learn, pandas, matplotlib, seaborn
-- **Inspiration:** Real-world business problem requiring cost-sensitive learning
-
----
-
-## 📧 Contact
-
-For questions about this project:
-- Open an issue on GitHub
-- See [SUBMISSION.md](docs/SUBMISSION.md) for assignment-specific queries
-
----
-
-## ⭐ Show Your Support
-
-If you found this project helpful:
-- ⭐ Star this repository
-- 🍴 Fork it for your own learning
-- 📢 Share it with others learning ML
-
----
-
-**Status:** ✅ Complete | **Performance:** 🏆 81.1% Recall | **Cost:** 💰 $0.516 per contact
-
-*Built with data science best practices and business impact in mind.*
